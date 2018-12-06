@@ -49,9 +49,9 @@ def myCommand():
 
 def assistant(command):
     if "你好" in command:
-        talkToMe(".043")
+        talkToMe("043")
     if "厉害" in command:
-        talkToMe(".008")
+        talkToMe("008")
     elif '打开' in command:
         reg_ex = re.search('打开(.+)', command)
         if reg_ex:
